@@ -28,7 +28,7 @@ public class TagController {
 	@PostMapping
 	public Tag insert(@RequestBody Map<String, Object> payload) { //{todo_id:id, name:tagName}
 		Todo todo = new Todo();
-		todo.setId((int)payload.get("todo_id"));
+		todo.setId((int)payload.get("todoid"));
 		
 		Tag tag = new Tag();
 		tag.setTodo(todo);

@@ -6,7 +6,7 @@
 	<groupId>com.treetrunks</groupId>
 	<artifactId>todo-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>todo-server</name>
 	<description>Spring Boot Server for Todo Project</description>
